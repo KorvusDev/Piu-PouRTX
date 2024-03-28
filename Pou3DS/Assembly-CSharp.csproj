@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{DE2FB804-2F2F-04D6-BF6B-05EBC92F65D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_5;UNITY_5_6;UNITY_5;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WWW;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_N3DS;UNITY_N3DS_API;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MICROPHONE;MIC_NOT_SUPPORTED_BY_FMOD;ENABLE_PLATFORMSOCKETS;SUPPORT_THREADS;ENABLE_NETWORK;ENABLE_UNET;ENABLE_WEBCAM;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Games\Dino Pou\Prefabs\MoveObjects.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\ButtonsD.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\CheckG.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\Coins.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\Death.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\DinoPool.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\GOButtons.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\Maps.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\Move.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\Obstacles.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\Pause.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\PauseSetActive.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\PlayerAnims.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Scripts\Score.cs" />
+     <Compile Include="Assets\Games\Dino Pou\Textures\Player\Desert\CG.cs" />
+     <Compile Include="Assets\Games\Flappy Bird\FlappyObjectMovement.cs" />
+     <Compile Include="Assets\Games\Flappy Bird\FlappyPool.cs" />
+     <Compile Include="Assets\Games\Flappy Bird\FlappyPou.cs" />
+     <Compile Include="Assets\Games\Sky Jump\CameraSkyJumpControl.cs" />
+     <Compile Include="Assets\Games\Sky Jump\PouSkyJump.cs" />
+     <Compile Include="Assets\Items\Destroy.cs" />
+     <Compile Include="Assets\Items\DragObjects.cs" />
+     <Compile Include="Assets\Items\EatVenenoMatador.cs" />
+     <Compile Include="Assets\Items\FinalDetect.cs" />
+     <Compile Include="Assets\Items\Food\CurrentFood.cs" />
+     <Compile Include="Assets\Items\Food\Fruits\DestroyFruit.cs" />
+     <Compile Include="Assets\Items\Food\Fruits\EatFruit.cs" />
+     <Compile Include="Assets\Items\Food\Fruits\FruitSelector.cs" />
+     <Compile Include="Assets\Items\Food\Fruits\Nevera.cs" />
+     <Compile Include="Assets\Items\GiveVenenoMatador.cs" />
+     <Compile Include="Assets\Items\KillPos.cs" />
+     <Compile Include="Assets\Items\Pos.cs" />
+     <Compile Include="Assets\Items\ResetPos.cs" />
+     <Compile Include="Assets\Scenes\ActiveKitchen.cs" />
+     <Compile Include="Assets\Scenes\Deaths\DestroyFinals.cs" />
+     <Compile Include="Assets\Scenes\GameSelector.cs" />
+     <Compile Include="Assets\Scenes\GameSelector1.cs" />
+     <Compile Include="Assets\Scenes\LoadingText.cs" />
+     <Compile Include="Assets\Scenes\MenuStatus\AllStatus.cs" />
+     <Compile Include="Assets\Scenes\MenuStatus\MenuStatus.cs" />
+     <Compile Include="Assets\Scenes\MenuStatus\MenuStatus1.cs" />
+     <Compile Include="Assets\Scenes\MenuStatus\OpenStatusMenu.cs" />
+     <Compile Include="Assets\Scenes\QuitGame.cs" />
+     <Compile Include="Assets\Scenes\TimeScale.cs" />
+     <Compile Include="Assets\Scenes\sKitchen.cs" />
+     <Compile Include="Assets\Scenes\sKitchen1.cs" />
+     <Compile Include="Assets\Scripts\Achievements.cs" />
+     <Compile Include="Assets\Scripts\Balance\FoodShop.cs" />
+     <Compile Include="Assets\Scripts\Balance\Fruits.cs" />
+     <Compile Include="Assets\Scripts\Balance\ModifyMoney.cs" />
+     <Compile Include="Assets\Scripts\Balance\Money.cs" />
+     <Compile Include="Assets\Scripts\Balance\Potions.cs" />
+     <Compile Include="Assets\Scripts\Buttons.cs" />
+     <Compile Include="Assets\Scripts\Deaths\AutoWriter.cs" />
+     <Compile Include="Assets\Scripts\Deaths\AutoWriterFinal.cs" />
+     <Compile Include="Assets\Scripts\Deaths\DeleteData\AutoWriterDelete.cs" />
+     <Compile Include="Assets\Scripts\Deaths\DeleteData\DeleteData.cs" />
+     <Compile Include="Assets\Scripts\Deaths\Fade.cs" />
+     <Compile Include="Assets\Scripts\Deaths\FullnessDeath\TimeToQuit.cs" />
+     <Compile Include="Assets\Scripts\Deaths\HealthDeath\DestroySeconds.cs" />
+     <Compile Include="Assets\Scripts\Deaths\ResetStats.cs" />
+     <Compile Include="Assets\Scripts\Deaths\SpawnFirstText.cs" />
+     <Compile Include="Assets\Scripts\DeletePlayerPrefs.cs" />
+     <Compile Include="Assets\Scripts\InGameMenus.cs" />
+     <Compile Include="Assets\Scripts\InGameMenus1.cs" />
+     <Compile Include="Assets\Scripts\Links.cs" />
+     <Compile Include="Assets\Scripts\MinigameStatusRemove.cs" />
+     <Compile Include="Assets\Scripts\MoreEnergy.cs" />
+     <Compile Include="Assets\Scripts\Options\FullScreen.cs" />
+     <Compile Include="Assets\Scripts\Options\Languages\Flags.cs" />
+     <Compile Include="Assets\Scripts\Options\Languages\Languages.cs" />
+     <Compile Include="Assets\Scripts\Options\Quality.cs" />
+     <Compile Include="Assets\Scripts\Options\SetFPS.cs" />
+     <Compile Include="Assets\Scripts\Options\SetLanguageWithValue.cs" />
+     <Compile Include="Assets\Scripts\Options\Volume.cs" />
+     <Compile Include="Assets\Scripts\RandomSong\NextSong.cs" />
+     <Compile Include="Assets\Scripts\RandomSong\RandomSong.cs" />
+     <Compile Include="Assets\Scripts\RandomSong\RandomSong1.cs" />
+     <Compile Include="Assets\Scripts\ReturnButton.cs" />
+     <Compile Include="Assets\Scripts\SetLanguage.cs" />
+     <Compile Include="Assets\Scripts\Status.cs" />
+     <Compile Include="Assets\Scripts\Times.cs" />
+     <Compile Include="Assets\Sounds\Songs\SelectSong.cs" />
+     <None Include="Assets\Font\install-a-new-font.txt" />
+     <None Include="Assets\Font\ffonts.net.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/Program Files (x86)/Unity/Nintendo/3DS/Program Files/UnityNew3DS_1_3_0/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
